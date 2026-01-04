@@ -1,0 +1,70 @@
+🍷 ŒNOTHÈQUE - SUPER SIMPLE DEPLOYMENT
+
+══════════════════════════════════════════════════════════════
+
+📦 THIS FOLDER IS READY TO DEPLOY!
+
+══════════════════════════════════════════════════════════════
+
+🚀 EASIEST METHOD - DRAG & DROP:
+
+1. Go to: https://vercel.com/new
+
+2. You'll see: "Import Git Repository" or deployment options
+
+3. Look for: "Upload" or "Browse" button
+   (It might say "Deploy without Git")
+
+4. DRAG THIS ENTIRE FOLDER onto the page
+   (The folder containing THIS file you're reading)
+
+5. Vercel will ask:
+   - Project name: oenotheque (or any name)
+   - Framework: Other
+   - Build Command: (LEAVE BLANK!)
+   - Output Directory: . (just a dot)
+   
+6. Click: DEPLOY
+
+7. Wait 30 seconds → You get a URL!
+
+══════════════════════════════════════════════════════════════
+
+⚠️ AFTER DEPLOYMENT - CRITICAL STEP:
+
+Your app won't work until you add the backend URL!
+
+1. Go to: https://vercel.com/dashboard
+2. Click: Your project name
+3. Settings → Environment Variables
+4. Add:
+   Name: EXPO_PUBLIC_API_URL
+   Value: https://90f36888b.na103.preview.abacusai.app/api
+   Environments: ✓ All
+5. Save
+6. Deployments → ... → Redeploy
+
+══════════════════════════════════════════════════════════════
+
+📱 THEN TEST:
+
+Safari on iPhone → Your Vercel URL → Login:
+Email: funbraces@gmail.com
+Password: DRC1978!!!abc
+
+🎉 YOUR APP IS LIVE!
+
+══════════════════════════════════════════════════════════════
+
+🆘 CAN'T FIND UPLOAD BUTTON?
+
+Option 1: Try Vercel CLI (if you have it installed)
+   Open Terminal and run:
+   cd /path/to/this/folder
+   vercel --prod
+
+Option 2: Push to GitHub first, then import from GitHub
+
+Option 3: Email this folder to yourself and extract on your Mac
+
+══════════════════════════════════════════════════════════════

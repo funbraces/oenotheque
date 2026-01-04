@@ -1,0 +1,93 @@
+🍷 ŒNOTHÈQUE - FINAL DEPLOYMENT INSTRUCTIONS
+
+✅ YOUR DEPLOYMENT PACKAGE IS READY!
+
+This folder contains your properly configured web app for Vercel.
+
+═══════════════════════════════════════════════════════════════
+
+🚀 STEP-BY-STEP DEPLOYMENT:
+
+1. DELETE OLD PROJECT IN VERCEL:
+   • Go to: https://vercel.com/dashboard
+   • Click: oenotheque project
+   • Settings → General → Scroll to bottom
+   • Click: Delete Project
+   • Confirm deletion
+
+2. UPLOAD THIS FOLDER TO VERCEL:
+   • Go to: https://vercel.com/new
+   • Click: "Browse" or drag THIS ENTIRE FOLDER
+   • Project name: oenotheque
+   • Framework: Other (or leave auto-detect)
+   • Root Directory: ./
+   • Build Command: (LEAVE BLANK)
+   • Output Directory: . (just a dot)
+   • Install Command: (LEAVE BLANK)
+   • Click: Deploy
+
+3. WAIT FOR DEPLOYMENT:
+   • Takes 30-60 seconds
+   • You'll get a URL like: https://oenotheque-xxx.vercel.app
+
+4. SET ENVIRONMENT VARIABLE (CRITICAL!):
+   • Go to: https://vercel.com/dashboard
+   • Click: oenotheque
+   • Settings → Environment Variables
+   • Add new variable:
+     Name: EXPO_PUBLIC_API_URL
+     Value: https://90f36888b.na103.preview.abacusai.app/api
+     Environments: ✓ Production ✓ Preview ✓ Development
+   • Save
+
+5. REDEPLOY WITH ENV VAR:
+   • Deployments tab
+   • Click "..." on latest deployment
+   • Click: Redeploy
+   • Wait 30 seconds
+
+6. TEST ON IPHONE:
+   • Open Safari
+   • Go to your Vercel URL
+   • Login: funbraces@gmail.com / DRC1978!!!abc
+   • 🎉 YOUR APP IS LIVE!
+
+═══════════════════════════════════════════════════════════════
+
+📱 AFTER SUCCESSFUL DEPLOYMENT:
+
+• Add to Home Screen on iPhone:
+  Safari → Share → Add to Home Screen → Name it "Œnothèque"
+
+• Your app will work like a native app!
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING:
+
+If you still see 404 error:
+• Check that Output Directory is: . (just a dot)
+• Make sure Build Command is BLANK
+• Make sure you uploaded the RIGHT folder (this one!)
+
+If app loads but shows "Network Error":
+• Environment variable not set correctly
+• Check the value is exactly: https://90f36888b.na103.preview.abacusai.app/api
+• Make sure you redeployed after adding the env var
+
+═══════════════════════════════════════════════════════════════
+
+✨ YOUR APP FEATURES:
+
+✓ Burgundy Œnothèque branding
+✓ Search wines and notes
+✓ 7 Cellars (HKWV, JAS, AOG, Peak, Windshell, Octavian, 55 Degrees)
+✓ AI label detection
+✓ Tasting notes & ratings
+✓ Statistics & analytics
+✓ Export functionality
+✓ Beautiful Wallpaper magazine aesthetic
+
+═══════════════════════════════════════════════════════════════
+
+Enjoy your sophisticated wine tracking app! 🍷✨
